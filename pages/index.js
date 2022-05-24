@@ -17,13 +17,18 @@ export default function Home() {
           Värmeanläggningar
           <ul className="ml-8 list-inside list-disc">
             <li>
-              <a href="http://www.nibe.se/" target="_blank">
+              <a
+                href="http://www.nibe.se/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Värmepumpar från Nibe
               </a>{' '}
               (
               <a
                 href="http://www.nibe.se/Produkter/Bergvarmepumpar/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Jord- och bergvärme
               </a>
@@ -31,6 +36,7 @@ export default function Home() {
               <a
                 href="http://www.nibe.se/Produkter/Luftvatten-varmepump/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Luftvärme
               </a>
@@ -38,6 +44,7 @@ export default function Home() {
               <a
                 href="http://www.nibe.se/Produkter/Franluftsvarmepumpar/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Frånluft
               </a>
