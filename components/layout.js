@@ -32,18 +32,26 @@ export default function Layout({ children }) {
               </ul>
             </nav>
           </header>
-          <div className='bg-blue-300 h-2'></div>
+          <div className="bg-blue-300 h-2"></div>
           <main className="bg-white p-8">{children}</main>
-          <footer className="text-right text-sm p-4">
-              <a
-                href="https://andreas.jilvero.se"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline"
-              >
-                Made by Andreas Jilvero AB
-              </a>
-            </footer>
+          <footer className="bg-white flex flex-row justify-between text-sm p-4 border-t-2">
+            <div className="">
+              Frans VVS AB<br />
+              Surteby Enelyckan<br />
+              51994 Björketorp<br />
+              <br />
+              <a href="tel:0320-60030">0320-60030</a><br />
+              <a href="tel:070-6247280">070-6247280</a>
+            </div>
+            <a
+              href="https://andreas.jilvero.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Made by Andreas Jilvero AB
+            </a>
+          </footer>
         </div>
       </div>
     </>
