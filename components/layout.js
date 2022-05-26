@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -10,9 +9,9 @@ export default function Layout({ children }) {
         <meta name="description" content="Frans VVS AB" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-full h-screen bg-gradient-to-r from-gray-200 to-gray-400">
-        <div className="container max-w-screen-lg m-auto md:pt-8">
-          <header className="p-8 text-white bg-blue-900">
+      <div className="w-full bg-white">
+        <div className="bg-white flex flex-col min-h-screen h-full">
+          <header className="p-8 text-white bg-blue-900 border-b-8 border-blue-300">
             <h1 className="text-6xl text-center mb-6">Frans VVS</h1>
 
             <nav className="text-lg">
@@ -32,9 +31,8 @@ export default function Layout({ children }) {
               </ul>
             </nav>
           </header>
-          <div className="bg-blue-300 h-2"></div>
-          <main className="bg-white p-8">{children}</main>
-          <footer className="bg-white flex flex-row justify-between text-sm p-4 border-t-2">
+          <main className="container mx-auto bg-white p-8">{children}</main>
+          <footer className="container mx-auto bg-white flex flex-row justify-between text-sm p-4 border-t-2 mt-auto">
             <div className="">
               Frans VVS AB<br />
               Surteby Enelyckan<br />
