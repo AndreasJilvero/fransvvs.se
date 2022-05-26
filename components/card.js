@@ -6,12 +6,10 @@ const globalizeNumber = (number) => {
 };
 
 export default function Card(props) {
-  console.log(props);
-  const {key, emp = {}} = props;
+  const {emp = {}} = props;
   
   return (
     <div
-      key={key}
       className="flex flex-row w-full bg-white rounded-lg border shadow-md md:max-w-xl hover:bg-gray-100"
     >
       <div className="w-24 h-full">

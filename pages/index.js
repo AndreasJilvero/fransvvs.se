@@ -4,7 +4,7 @@ import Card from '../components/card';
 export default function Home() {
   return (
     <div className="flex flex-wrap gap-4">
-      <div className="basis-3/5">
+      <div className="grow">
         <h2 className="text-2xl pb-4">
           Vi är ett serviceföretag som utför arbeten med allt inom VVS
         </h2>
