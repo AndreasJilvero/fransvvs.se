@@ -1,6 +1,10 @@
 import Card from '../components/card';
 import employees from '../employees';
 
+export const config = {
+  unstable_runtimeJS: false
+}
+
 export default function Contact() {
   return (
     <>

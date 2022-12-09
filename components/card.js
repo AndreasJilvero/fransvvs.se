@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { InlineIcon } from '@iconify/react';
 
 const globalizeNumber = (number) => {
@@ -13,7 +12,7 @@ export default function Card(props) {
       className="flex flex-row w-full bg-white rounded-lg border shadow-md md:max-w-xl hover:bg-gray-100"
     >
       <div className="w-24 h-full">
-        <Image className="rounded-tl-lg object-cover" src={emp.image} />
+        <img className="rounded-tl-lg object-cover" src={emp.image.src} alt={emp.name} />
       </div>
       <div className="px-4 pt-2 flex flex-col mb-4 overflow-hidden">
         <h3 className="text-xl">{emp.name}</h3>

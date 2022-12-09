@@ -1,6 +1,10 @@
 import employees from '../employees';
 import Card from '../components/card';
 
+export const config = {
+  unstable_runtimeJS: false
+}
+
 export default function Home() {
   return (
     <div className="flex flex-wrap gap-4">
