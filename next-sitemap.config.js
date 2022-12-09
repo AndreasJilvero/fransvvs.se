@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://fransvvs.se',
+  siteUrl: process.env.SITE_URL || 'https://www.fransvvs.se',
   generateIndexSitemap: false,
   generateRobotsTxt: true,
 }
