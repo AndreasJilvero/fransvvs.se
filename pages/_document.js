@@ -25,6 +25,7 @@ class AppDocument extends Document {
             name="Keywords"
             content="Frans VVS Björketorp Hyssna Jilvero Rör Rörmokare Rörläggare VVS-installatör värmepump"
           />
+          <meta name="google-site-verification" content="iHnJZlzYdEnpNR_V5p4rep_rhFGD-tHUhtOOe9xzMXU" />
         </Head>
         <body className="w-full">
           <noscript
